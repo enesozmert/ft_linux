@@ -1,0 +1,33 @@
+POSIX standarları nedir ?
+
+1-)distro => dağıtım (işletim sisteminin toplu(yazılım grafik güvenlik) ve paketlenmiş hali)
+
+2-)soruce dosylarının bulunduğu yer /usr/src/kernel-$(version)
+
+3-)partitions=>
+1 root (dosya sistemi)
+2 boot (bootable linux system)
+3 swap (hard disk de depolanır ram'in yetersiz kaldığı durumda kullanılır)
+
+4-)distro ya kernel_module loader ekle
+
+5-)udev linux çekirdeği için bir aygıt yöneticisidir.
+
+6-)kernel version ismi öğrenci ismi ile olmalı = 4.1.2-eozmert gibi
+
+10-)hostname eozmert login adı olmalı
+
+11-)32, 64 bit kurulabilir
+
+12-)merkezi yonetim ve merkezi kofigrasyon için SysV, SystemD
+
+13-)bootloader iiçin kütüphalerden birini kullan örnek LILO or GRUB
+
+14-)kernel kaynak kodları /boot altında olmalı
+
+15-)kernel boot dosyalarının adı ve bootloader kofigrasyon dosyasının adı wmlinuz-<linux_version>-<student_login>
+
+
+https://www.linuxfromscratch.org/lfs/view/stable/index.html
+
+https://www.gnu.org/software/automake/manual/html_node/index.html#SEC_Contents
